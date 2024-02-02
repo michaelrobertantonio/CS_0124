@@ -1,0 +1,16 @@
+S1/L5
+Per creare una rete stabile negli edifici assegnati,nei quali troveremo 30 PC per piano io sono intervenuto in questo modo:
+Nel primo piano che sara' comunque aperto al pubblico troveremo:PC30(intel 5-7 con rispettivi accessori),reception ed uno switch a cui si collegeranno gran parte dei PC,i restanti saranno direttamente collegati allo switch del sever del secondo piano.
+Nel secondo piano:ci sara' la parte che gestisce la rete di tutto l'edificio AKA server(2 multi switch che si connettono ad i 5 switch 2960 distribuiti tra i vari piani,2 hardware FIREWALL a separare i router dai server che sono 6 in totale,2 router 2901 uno dedicato alla parte dei 5 server,uno separatamente collegato ad un singolo server)i 2 multi switch consentono ad i PC restanti di collegarsi sia tramite uno switch 2960 nel piano stesso,sia grazie alle porte restanti dei multi switch.
+Nel terzo piano e quarto piano::30 PC e 2 Switch per il terzo piano,che insieme all'ultimo switch del quarto piano collegera' anche gli ultimi 30 PC.
+HARDWARE:
+120 PC(intel 5-7 con rispettivi accessori 8 gb ram)
+6 Switch 2960
+2 Switch 3650-24PS
+2 Router 2901
+6 Server-PT 
+2 FIREWALL
+P.S. Il tutto sara' del tutto speculare per il secondo edificio che si trova a 30 metri di distanza dal primo,i due saranno collegati tramite la fibra ottica.
+IL preventivo e' di 738000 euro per ogni edificio
+
+Buona fortuna,cari saluti.
