@@ -1,0 +1,12 @@
+*Nella funzione:char scelta = {'\0'}; manca un simbolo di uguaglianza (=) e gli apici devono essere doppi in quanto e' un numero e non una lettera.
+
+*Nella funzione:scanf ("%d", &scelta); abbiamo bisogno di uno spazio tra gli apici e la percentuale cio' vale per tutte le funzioni scanf che troveremo in seguito.
+
+*Void moltiplica:l'errore qui si trova nella prima funzione scanf dove la lettera "f" va sostituita semplicemente alla lettera "d".
+
+*Void dividi:nella funzione printf ("Inserisci il numeratore:") i 2 punti dopo la parola numeratore sono di troppo,cio' vale anche per la seconda funzione printf dove ci sono ben due errori di sintassi,denumeratore si scrive denominatore e anche qui i due punti sono di troppo,dopo di che  in int divisione = a % b; per per dare l'input divisione in realta' si usa "/" e non "%".
+
+*L'ultima funzione che troviamo anche prima del main in cima,non ha uno scopo specifico quindi per me e' superflua,oltre cio' possiamo chiudere il programma alla fine della pagina con return 0' ed una "}".
+
+
+*LA FUNZIONE DEL PROGRAMMA SARA' DUNQUE QUELLA DI CREARE UN INTERFACCIA MENU' NELLA QUALE POSSIAMO SCEGLIERE DI DIVIDERE O MOLTIPLICARE DUE NUMERI.
