@@ -1,0 +1,28 @@
+-creare uno stack
+push ebp
+mov  epb,esp
+
+
+-variabili 
+push ecx                      
+push 0    ;dwReserved   ;"dw" di solito sta per "double word" e indica un tipo di dato a 32 bit in linguaggio assembly, che è spesso utilizzato per rappresentare numeri interi senza segno.                                          "Reserved" indica che un determinato campo di dati è riservato per un uso futuro o non è attualmente utilizzato.
+
+push 0    ;ldpwFlags
+
+-std call
+call ds:InternetGetConnectedState
+
+-cosrutto while
+mov [ebp+var_4],eax
+cmp [ebp+var_4],0
+jz  short loc_40102B
+push offset aSucessInterne ; "Success: internet Connection\n"
+call sub_40105f
+
+-costrutto for
+add  esp,4
+mov  eax,1
+jmp  short loc_40103A
+
+La parte di codice del malware studiato punta ad ottenere informazioni sullo stato di rete della macchina attaccata,cio' potrebbe significare che il malintenzionato voglia eseguire un attacco ddos o comunque creare danni attraverso la rete.
+
